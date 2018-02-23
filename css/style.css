@@ -1,4 +1,83 @@
-.social { 
-  height: 10%;
-  width: 10%;
+
+/*body*/
+body {
+  background-image: url('../images/dust-scratches.png');
+}
+
+/*nav*/
+.navbar-brand {
+  background-color: #4eaaa5;
+  margin-right: 700px;
+}
+
+
+/*main contnet*/
+.col-sm-7 {
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #666;
+}
+.col-sm-4 {
+  background-color: #ffffff;
+  margin: 5px;
+  border: 2px solid #666;
+  padding: 5px;
+}
+h2 {
+  padding: 5px;
+  font-size: 2em;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #4eaaa5;
+  border-bottom: 2px solid #666;
+}
+.prof {
+  margin: 5px;
+  float: left;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #666;
+  margin: 10px;
+  line-height: 1.5em
+}
+
+
+
+
+
+
+
+/*social images*/
+
+.prof {
+  height: 15%;
+  width: 15%;
+}
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img-fluid {
+  height: 20%;
+  width: 20%;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 250px;
+  background: #666;
+  position: bottom;
+  border-top: 8px solid #4aaaa5;
+  color: #ffffff;
+}
+
+.copy {
+  color: #ffffff;
 }
