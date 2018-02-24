@@ -1,4 +1,6 @@
 
+/*Index CSS*/
+
 /*body*/
 body {
   background-image: url('../images/dust-scratches.png');
@@ -17,6 +19,7 @@ body {
   margin: 5px;
   padding: 5px;
   border: 2px solid #666;
+  height: auto;
 }
 .col-sm-4 {
   background-color: #ffffff;
@@ -44,11 +47,6 @@ p {
 }
 
 
-
-
-
-
-
 /*social images*/
 
 .prof {
@@ -62,10 +60,7 @@ p {
   margin-right: 10px;
   margin-left: 10px;
 }
-.img-fluid {
-  height: 20%;
-  width: 20%;
-}
+
 
 /*footer*/
 footer {
@@ -80,4 +75,29 @@ footer {
 
 .copy {
   color: #ffffff;
+}
+
+
+
+/*Contact CSS*/
+
+.form-group {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/*Porfolio CSS*/
+.img-fluid {
+  height: 80px;
+  width: 80px;
+}
+.col-md-2 {
+  text-align: center;
+  margin: 5px;
+
+}
+.title {
+  background-color: #4eaaa5;
+  color: white;
+  padding: 5px;
 }
